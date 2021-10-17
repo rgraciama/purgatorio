@@ -1,0 +1,56 @@
+.Home-home {
+    width: 100%;
+    min-height: calc(100vh);
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.container-row-home {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 40px;
+    justify-content: center;
+}
+
+.total-home {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.hell-paper {
+    background-image: url("../../images/hell.jpg");
+    width: 100px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    margin:10px;
+}
+
+.heaven-paper {
+    background-image: url("../../images/heaven.jpg");
+    width: 100px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    margin:10px;
+}
+
+.new-testimony-home {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
